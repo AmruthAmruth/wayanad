@@ -1,0 +1,92 @@
+.home{
+    width: 100%; 
+     
+}
+.home>h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Kreon', serif;
+  
+}
+.home>h1>span{
+    font-family: 'Cinzel Decorative', cursive;
+    color: rgb(14, 163, 14);
+    font-weight: bold;
+}
+.imge{
+    padding: 5rem;
+    display: flex;
+    
+}
+.imge>img{
+    width: 47rem;
+    border-radius: 17px;
+    
+}
+.imge>p{
+    padding: 3rem ;
+    font-size: 1.4rem;
+    margin-top: 3.5rem;
+    text-align: center;
+    font-family: 'Aoboshi One', serif;
+}
+
+/* Tourism section.. */
+
+.tourism{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+    display: flex;
+}
+
+.tourism>p{
+   padding: 2rem;
+   font-family: 'Aoboshi One', serif;
+  
+}
+.tourism>p>h4{
+    font-family: 'Kreon', serif;
+
+}
+.tourism>img{
+    border-radius: 19px;
+    
+}
+
+
+
+
+@media only screen and (max-width:1110px){
+    .imge{
+        padding: 0rem;
+        display: flex;
+    flex-direction: column;
+        align-items: center;
+    }
+    .imge>img{
+        width: 95%;
+        border-radius: 17px;
+        
+    }
+    
+.imge>p{
+    padding: 1rem ;
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+   
+}
+/* tourism */
+.tourism{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tourism>p{
+    padding: 1rem;
+}
+
+}

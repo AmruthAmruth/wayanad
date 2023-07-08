@@ -1,0 +1,33 @@
+.navbar{
+    width: 100%;
+    background: rgb(0, 173, 66);
+}
+#nav-ul>li>a{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'Kreon', serif;
+    border-radius: 10px;
+}
+#nav-ul>li>a:hover{
+    background: rgb(0, 173, 66);
+    color: white;
+    border-radius: 10px;
+}
+#heading{
+    margin-left: 5rem;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2.3rem;
+    color: rgb(32, 130, 10);
+    
+}
+
+@media only screen and (max-width:1110px){
+#heading{
+    margin-left: 1rem;
+}
+#nav-btn{
+    margin-right: 1rem;
+}
+}

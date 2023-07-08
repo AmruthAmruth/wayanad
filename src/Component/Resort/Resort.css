@@ -1,0 +1,70 @@
+body{
+    overflow-x: hidden;
+}
+.resort>h1{
+    margin-top: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Kreon', serif;
+  
+}
+.resort{
+    margin-bottom: 5rem;
+}
+
+.resort>h1>span{
+    font-family: 'Cinzel Decorative', cursive;
+    color: rgb(14, 163, 14);
+    font-weight: bold;
+}
+.continer{
+    margin-top: 4rem;
+    position: relative;
+  text-align: center;
+  color: white;
+
+    
+}
+.continer>img{
+    width: 35rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.continer>p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.3rem;
+    font-family: 'Kreon', serif;
+}
+.continer>p>a{
+    text-decoration: none;
+    font-size: 1rem;
+    background: white;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+}
+.continer>p>a:hover{
+    background: black;
+    color: white;
+   border: 2px solid white;
+}
+
+@media only screen and (max-width:1110px){
+    .continer>img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    .continer>p{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,75 @@
+.tourist{
+    width: 100%; 
+     
+}
+.tourist>h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Kreon', serif;
+  
+}
+.tourist>h1>span{
+    font-family: 'Cinzel Decorative', cursive;
+    color: rgb(14, 163, 14);
+    font-weight: bold;
+}
+.teim{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.sport>h4{
+    margin-left: 6rem;
+    margin-top: 3rem;
+    font-family: 'Kreon', serif;
+}
+.teim>p{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-family: 'Aoboshi One', serif;
+}
+.teim>p>button{
+    margin-top: 2rem;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 8px;
+    background: rgb(14, 163, 14);
+    color: white;
+    border: none;
+    
+}
+.teim>p>button>a{
+    text-decoration: none;
+    color: white;
+}
+.teim>p>button>a:hover{
+    color: white;
+}
+.teim>p>button:hover{
+    background: rgb(21, 101, 21);
+    
+}
+.teim>img{
+    border-radius: 15px;
+}
+
+@media only screen and (max-width:1110px){
+    .teim{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+    }
+    .sport>h4{
+        margin-left: 0rem;
+        text-align: center;
+        margin-top: 3rem;
+        font-family: 'Kreon', serif;
+    }
+    .teim>p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-family: 'Aoboshi One', serif;
+    }
+}
